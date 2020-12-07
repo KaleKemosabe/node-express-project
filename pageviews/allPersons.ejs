@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superheroes</title>
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h2>All superheroes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hero Id</th>
+                    <th>Name</th>
+                    <th>Year of birth</th>
+                    <th>Gear</th>
+                    <th>Superproperty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% result.forEach(person => { %>
+                    <tr>
+                        <td><%= person.heroId %></td>
+                        <td><%= person.name %></td>
+                        <td><%= person.yearOfBirth %></td>
+                        <td><%= person.gear %></td>
+                        <td><%= person.superproperty %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+        <a href="/"><button>Menu</button></a>
+    </main>
+</body>
+</html>

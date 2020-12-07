@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1><%= header %></h1>
+        <form action="<%= action %>" method="POST">
+            <div>
+                <p>
+                    <label for="heroId">Hero Id</label>
+                    <input type="text" id="heroId" name="heroId" size="5" 
+                    value="<%= heroId.value %>" <%= heroId.readonly %> >
+                </p>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" size="15"
+                    value="<%= name.value %>" <%= name.readonly %> >
+                </p>
+                <p>
+                    <label for="yearOfBirth">Year of Birth</label>
+                    <input type="text" id="yearOfBirth" name="yearOfBirth" size="25"
+                    value="<%= yearOfBirth.value %>" <%= yearOfBirth.readonly %> >
+                </p>
+                <p>
+                    <label for="gear">Gear</label>
+                    <input type="text" id="gear" name="gear" size="10"
+                    value="<%= gear.value %>" <%= gear.readonly %> >
+                </p>
+                <p>
+                    <label for="superproperty">superproperty</label>
+                    <input type="text" id="superproperty" name="superproperty" size="10"
+                    value="<%= superproperty.value %>" <%= superproperty.readonly %> >
+                </p>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <a href="/"><button>Menu</button></a>
+    </main>
+</body>
+</html>

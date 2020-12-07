@@ -1,0 +1,51 @@
+[
+    {
+        "watchmanId": 7,
+        "name": "SteelFoot",
+        "yearOfBirth": 1930,
+        "gear": "MemoryEnhancer",
+        "superproperty": "amnesia"
+    },
+    {
+        "watchmanId": 4,
+        "name": "Lightning",
+        "yearOfBirth": 1990,
+        "gear": "Glove",
+        "superproperty": "evil eye"
+    },
+    {
+        "watchmanId": 3,
+        "name": "SuperMoron",
+        "yearOfBirth": 1960,
+        "gear": "SuperArmour",
+        "superproperty": "flash"
+    },
+    {
+        "watchmanId": 1,
+        "name": "SuperQL",
+        "yearOfBirth": 1905,
+        "gear": "SeachEngine",
+        "superproperty": "healer"
+    },
+    {
+        "watchmanId": 6,
+        "name": "Rustman",
+        "yearOfBirth": 2012,
+        "gear": "Cape",
+        "superproperty": "timer"
+    },
+    {
+        "watchmanId": 5,
+        "name": "SuperGenius",
+        "yearOfBirth": 1890,
+        "gear": "HelmeT",
+        "superproperty": "quantum stare"
+    },
+    {
+        "watchmanId": 2,
+        "name": "DataMaster",
+        "yearOfBirth": 2000,
+        "gear": "JumpBoots",
+        "superproperty": "ridiculously fast"
+    }
+]

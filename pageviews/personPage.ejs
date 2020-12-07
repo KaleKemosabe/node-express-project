@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hero result</title>
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Hero data</h1>
+        <section class="popup">
+            <p><span class="legend">Hero id:</span> <%= result.heroId %></p>
+            <p>Name: <%= result.name %></p>
+            <p>Year of birth is: <%= result.yearOfBirth %></p>
+            <p>Gear is <%= result.gear %></p>
+            <p>superproperty: <%= result.superproperty %></p>
+        </section>
+        <a href="/"><button>Menu</button></a>
+    </main>
+</body>
+</html>
